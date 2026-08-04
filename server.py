@@ -40,3 +40,6 @@ def submit_form():
             return 'Did not save to database.'
     else:
         return 'Something went wrong. Try again later.'
+
+if __name__ == "__main__":
+    app.run(debug=True, host="127.0.0.1", port=5000)
